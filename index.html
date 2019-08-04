@@ -1,0 +1,40 @@
+<html>
+  <head>
+      <link rel="stylesheet" type="text/css" href="style.css">
+
+  </head>
+  <body>
+    <h1>Acme Customers <span>VIP</span></h1>
+
+    <div class='inputForm'>
+      <h2>Customer Input Form</h2>
+
+      <form>
+        <label class='name'>Name</label>
+        <input class='nameBox' type='text' /><br>
+        <label class='email'>Email</label>
+        <input class='emailBox' type='email'/><br>
+        <label class='isVip'>IsVIP</label>
+        <input name='IsVIP' class='checkBox' type='checkbox' />
+        <br><br>
+        <div id='nameError'></div>
+        <div id='emailError'></div>
+        <br>
+
+        <button class='create'>Create</button>
+      </form>
+
+    </div>
+
+
+    <div id='container'>
+      <div id='numVIP'></div>
+      <div id='customerList'>
+
+      </div>
+
+    </div>
+
+    <script src='script.js'></script>
+  </body>
+</html>

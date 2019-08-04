@@ -1,0 +1,39 @@
+.inputForm{
+  border: solid 1px black;
+  padding: 1rem;
+}
+.nameBox, .emailBox{
+  width: 75%;
+}
+
+form{
+  padding: 1rem;
+  width: 100%;
+}
+#numVIP{
+  background-color: gray;
+  color: white;
+  padding: 1rem;
+}
+#customerList div{
+  height: 2rem;
+  padding: 1.5rem;
+  background-color: white;
+  color: black;
+  font-size: 1.5rem;
+
+}
+#customerList{
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  justify-content: space-between;
+
+}
+#customerList .vip{
+  background-color: dodgerblue;
+  color:white;
+}
+#nameError, #emailError {
+  color:red;
+}
